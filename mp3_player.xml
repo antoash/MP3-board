@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\asher\KiCAD\MP3_Player\mp3_player.kicad_sch</source>
+    <date>10/24/2024 1:10:53 PM</date>
+    <tool>Eeschema (6.0.8)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>MP3 Player</title>
+        <company/>
+        <rev>v01</rev>
+        <date/>
+        <source>mp3_player.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="Author: Asher Pinto"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>CONN_02PTH2</value>
+      <footprint>Connectors:1X02_BIG</footprint>
+      <fields>
+        <field name="Field4">XXX-00000</field>
+      </fields>
+      <libsource lib="SparkFun-Connectors" part="CONN_02PTH2" description="Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections  &lt;b&gt;On any of the 0.1 inch spaced packages, you can populate with these:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/116&quot;&gt; Break Away Headers - Straight&lt;/a&gt; (PRT-00116)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/553&quot;&gt; Break Away Male Headers - Right Angle&lt;/a&gt; (PRT-00553)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/115&quot;&gt; Female Headers&lt;/a&gt; (PRT-00115)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/117&quot;&gt; Break Away Headers - Machine Pin&lt;/a&gt; (PRT-00117)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/743&quot;&gt; Break Away Female Headers - Swiss Machine Pin&lt;/a&gt; (PRT-00743)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt; For SCREWTERMINALS and SPRING TERMINALS visit here:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/search/results?term=Screw+Terminals&quot;&gt; Screw Terimnals on SparkFun.com&lt;/a&gt; (5mm/3.5mm/2.54mm spacing)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt;This device is also useful as a general connection point to wire up your design to another part of your project. Our various solder wires solder well into these plated through hole pads.&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/11375&quot;&gt; Hook-Up Wire - Assortment (Stranded, 22 AWG)&lt;/a&gt; (PRT-11375)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/11367&quot;&gt; Hook-Up Wire - Assortment (Solid Core, 22 AWG)&lt;/a&gt; (PRT-11367)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/categories/141&quot;&gt; View the entire wire category on our website here&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;b&gt;Special notes:&lt;/b&gt; Molex polarized connector foot print use with: PRT-08233 with associated crimp pins and housings.&lt;br&gt;&lt;br&gt;2.54_SCREWTERM for use with  PRT-10571.&lt;br&gt;&lt;br&gt;3.5mm Screw Terminal footprints for  PRT-08084&lt;br&gt;&lt;br&gt;5mm Screw Terminal footprints for use with PRT-08432"/>
+      <property name="Field4" value="XXX-00000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: mp3_player.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1a2c8412-e8d2-49ee-9d08-6e5ad9000c94</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>AUDIO_JACK_TRRSSMD_RA</value>
+      <footprint>Connectors:AUDIO_JACK_3.5MM_TRRS_SMD_RA</footprint>
+      <fields>
+        <field name="Field4">CONN-10676</field>
+      </fields>
+      <libsource lib="SparkFun-Connectors" part="AUDIO_JACK_TRRSSMD_RA" description="Audio Jack - 3.5mm TRRS (SMD) This is a 3.5mm TRRS SMD audio jack. &lt;br&gt;TRRS connectors are the audio-style connectors that you see on some phones, MP3 players and development boards. &lt;br&gt;TRRS stands for  tip, ring, ring, sleeve,  which reflects that this  has three conductors and a ground.  &lt;b&gt;SparkFun Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/12639 &gt;Audio Jack&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/12968&quot;&gt;mbed Starter Kit&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/11570&gt;SparkFun TRRS 3.5mm Jack Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;"/>
+      <property name="Field4" value="CONN-10676"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: mp3_player.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4cc6e340-00c3-4d32-a191-802ec950d43f</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_02PTH2</value>
+      <footprint>Connectors:1X02_BIG</footprint>
+      <fields>
+        <field name="Field4">XXX-00000</field>
+      </fields>
+      <libsource lib="SparkFun-Connectors" part="CONN_02PTH2" description="Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections  &lt;b&gt;On any of the 0.1 inch spaced packages, you can populate with these:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/116&quot;&gt; Break Away Headers - Straight&lt;/a&gt; (PRT-00116)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/553&quot;&gt; Break Away Male Headers - Right Angle&lt;/a&gt; (PRT-00553)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/115&quot;&gt; Female Headers&lt;/a&gt; (PRT-00115)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/117&quot;&gt; Break Away Headers - Machine Pin&lt;/a&gt; (PRT-00117)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/743&quot;&gt; Break Away Female Headers - Swiss Machine Pin&lt;/a&gt; (PRT-00743)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt; For SCREWTERMINALS and SPRING TERMINALS visit here:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/search/results?term=Screw+Terminals&quot;&gt; Screw Terimnals on SparkFun.com&lt;/a&gt; (5mm/3.5mm/2.54mm spacing)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt;This device is also useful as a general connection point to wire up your design to another part of your project. Our various solder wires solder well into these plated through hole pads.&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/11375&quot;&gt; Hook-Up Wire - Assortment (Stranded, 22 AWG)&lt;/a&gt; (PRT-11375)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/products/11367&quot;&gt; Hook-Up Wire - Assortment (Solid Core, 22 AWG)&lt;/a&gt; (PRT-11367)&lt;/li&gt;&lt;li&gt;&lt;a href=&quot;https://www.sparkfun.com/categories/141&quot;&gt; View the entire wire category on our website here&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;b&gt;Special notes:&lt;/b&gt; Molex polarized connector foot print use with: PRT-08233 with associated crimp pins and housings.&lt;br&gt;&lt;br&gt;2.54_SCREWTERM for use with  PRT-10571.&lt;br&gt;&lt;br&gt;3.5mm Screw Terminal footprints for  PRT-08084&lt;br&gt;&lt;br&gt;5mm Screw Terminal footprints for use with PRT-08432"/>
+      <property name="Field4" value="XXX-00000"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: mp3_player.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b238ac8-7e98-43a5-b3cd-83c5e0f8a7d2</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>CPF0805B1K0E1:RESC2012X65N</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: mp3_player.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a67a4a7-f277-4484-82b5-ba83a4eda113</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>CPF0805B1K0E1:RESC2012X65N</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: mp3_player.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e56a136e-8bad-41b4-bbfe-cdb159c0e69a</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>33k</value>
+      <footprint>RT0603FRD0733KL:RESC1608X55N</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: mp3_player.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>188c8122-c1dd-46c1-a1cb-eb9e2e3d60bc</tstamps>
+    </comp>
+    <comp ref="S1">
+      <value>1825910-6</value>
+      <footprint>digikey-footprints:Switch_Tactile_THT_6x6mm</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Category">Switches</field>
+        <field name="DK_Datasheet_Link">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
+        <field name="DK_Detail_Page">/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Digi-Key_PN">450-1650-ND</field>
+        <field name="Family">Tactile Switches</field>
+        <field name="MPN">1825910-6</field>
+        <field name="Manufacturer">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Tactile-Switches" part="1825910-6" description="SWITCH TACTILE SPST-NO 0.05A 24V"/>
+      <property name="Digi-Key_PN" value="450-1650-ND"/>
+      <property name="MPN" value="1825910-6"/>
+      <property name="Category" value="Switches"/>
+      <property name="Family" value="Tactile Switches"/>
+      <property name="DK_Datasheet_Link" value="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536"/>
+      <property name="Description" value="SWITCH TACTILE SPST-NO 0.05A 24V"/>
+      <property name="Manufacturer" value="TE Connectivity ALCOSWITCH Switches"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: mp3_player.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b26c728-d52b-4488-8e6a-5a9ff9de05f6</tstamps>
+    </comp>
+    <comp ref="S2">
+      <value>1825910-6</value>
+      <footprint>digikey-footprints:Switch_Tactile_THT_6x6mm</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Category">Switches</field>
+        <field name="DK_Datasheet_Link">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
+        <field name="DK_Detail_Page">/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Digi-Key_PN">450-1650-ND</field>
+        <field name="Family">Tactile Switches</field>
+        <field name="MPN">1825910-6</field>
+        <field name="Manufacturer">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Tactile-Switches" part="1825910-6" description="SWITCH TACTILE SPST-NO 0.05A 24V"/>
+      <property name="Digi-Key_PN" value="450-1650-ND"/>
+      <property name="MPN" value="1825910-6"/>
+      <property name="Category" value="Switches"/>
+      <property name="Family" value="Tactile Switches"/>
+      <property name="DK_Datasheet_Link" value="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536"/>
+      <property name="Description" value="SWITCH TACTILE SPST-NO 0.05A 24V"/>
+      <property name="Manufacturer" value="TE Connectivity ALCOSWITCH Switches"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: mp3_player.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb5b3afd-a0b1-4d23-8145-a65e81141618</tstamps>
+    </comp>
+    <comp ref="S3">
+      <value>1825910-6</value>
+      <footprint>digikey-footprints:Switch_Tactile_THT_6x6mm</footprint>
+      <datasheet>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</datasheet>
+      <fields>
+        <field name="Category">Switches</field>
+        <field name="DK_Datasheet_Link">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
+        <field name="DK_Detail_Page">/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Digi-Key_PN">450-1650-ND</field>
+        <field name="Family">Tactile Switches</field>
+        <field name="MPN">1825910-6</field>
+        <field name="Manufacturer">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Tactile-Switches" part="1825910-6" description="SWITCH TACTILE SPST-NO 0.05A 24V"/>
+      <property name="Digi-Key_PN" value="450-1650-ND"/>
+      <property name="MPN" value="1825910-6"/>
+      <property name="Category" value="Switches"/>
+      <property name="Family" value="Tactile Switches"/>
+      <property name="DK_Datasheet_Link" value="https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English"/>
+      <property name="DK_Detail_Page" value="/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536"/>
+      <property name="Description" value="SWITCH TACTILE SPST-NO 0.05A 24V"/>
+      <property name="Manufacturer" value="TE Connectivity ALCOSWITCH Switches"/>
+      <property name="Status" value="Active"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: mp3_player.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35724174-e32e-43c4-ac80-3ae30dcfbc1d</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>DFPLAYER_MINI</value>
+      <footprint>DF_player:DF_PlayerMini</footprint>
+      <libsource lib="DFRobot" part="DFPLAYER_MINI" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="File: mp3_player.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21b98d72-1fe3-46a0-bd6a-5007951d83f1</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="DFRobot" part="DFPLAYER_MINI">
+      <fields>
+        <field name="Reference">DFR0299</field>
+        <field name="Value">DFPLAYER_MINI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="input"/>
+        <pin num="2" name="RX" type="input"/>
+        <pin num="3" name="TX" type="input"/>
+        <pin num="4" name="DAC-R" type="input"/>
+        <pin num="5" name="DAC-L" type="input"/>
+        <pin num="6" name="SPK1" type="input"/>
+        <pin num="7" name="GND" type="input"/>
+        <pin num="8" name="SPK2" type="input"/>
+        <pin num="9" name="IO1" type="input"/>
+        <pin num="10" name="GND" type="input"/>
+        <pin num="11" name="IO2" type="input"/>
+        <pin num="12" name="KEY1" type="input"/>
+        <pin num="13" name="KEY2" type="input"/>
+        <pin num="14" name="USB+" type="input"/>
+        <pin num="15" name="USB-" type="input"/>
+        <pin num="16" name="BUSY" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Connectors" part="AUDIO_JACK_TRRSSMD_RA">
+      <description>Audio Jack - 3.5mm TRRS (SMD) This is a 3.5mm TRRS SMD audio jack. &lt;br&gt;TRRS connectors are the audio-style connectors that you see on some phones, MP3 players and development boards. &lt;br&gt;TRRS stands for  tip, ring, ring, sleeve,  which reflects that this  has three conductors and a ground.  &lt;b&gt;SparkFun Products:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/12639 &gt;Audio Jack&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/12968"&gt;mbed Starter Kit&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href= https://www.sparkfun.com/products/11570&gt;SparkFun TRRS 3.5mm Jack Breakout&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description>
+      <footprints>
+        <fp>*AUDIO_JACK_3.5MM_TRRS_SMD_RA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">AUDIO_JACK_TRRSSMD_RA</field>
+        <field name="Footprint">AUDIO_JACK_3.5MM_TRRS_SMD_RA</field>
+        <field name="Field4">CONN-10676</field>
+      </fields>
+      <pins>
+        <pin num="EART" name="EARTH" type="bidirectional"/>
+        <pin num="RING" name="RING1" type="bidirectional"/>
+        <pin num="TIP" name="TIP" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Connectors" part="CONN_02PTH2">
+      <description>Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections  &lt;b&gt;On any of the 0.1 inch spaced packages, you can populate with these:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/116"&gt; Break Away Headers - Straight&lt;/a&gt; (PRT-00116)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/553"&gt; Break Away Male Headers - Right Angle&lt;/a&gt; (PRT-00553)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/115"&gt; Female Headers&lt;/a&gt; (PRT-00115)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/117"&gt; Break Away Headers - Machine Pin&lt;/a&gt; (PRT-00117)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/743"&gt; Break Away Female Headers - Swiss Machine Pin&lt;/a&gt; (PRT-00743)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt; For SCREWTERMINALS and SPRING TERMINALS visit here:&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/search/results?term=Screw+Terminals"&gt; Screw Terimnals on SparkFun.com&lt;/a&gt; (5mm/3.5mm/2.54mm spacing)&lt;/li&gt;&lt;/ul&gt; &lt;b&gt;This device is also useful as a general connection point to wire up your design to another part of your project. Our various solder wires solder well into these plated through hole pads.&lt;/b&gt;&lt;ul&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11375"&gt; Hook-Up Wire - Assortment (Stranded, 22 AWG)&lt;/a&gt; (PRT-11375)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/products/11367"&gt; Hook-Up Wire - Assortment (Solid Core, 22 AWG)&lt;/a&gt; (PRT-11367)&lt;/li&gt;&lt;li&gt;&lt;a href="https://www.sparkfun.com/categories/141"&gt; View the entire wire category on our website here&lt;/a&gt;&lt;/li&gt; &lt;/ul&gt; &lt;b&gt;Special notes:&lt;/b&gt; Molex polarized connector foot print use with: PRT-08233 with associated crimp pins and housings.&lt;br&gt;&lt;br&gt;2.54_SCREWTERM for use with  PRT-10571.&lt;br&gt;&lt;br&gt;3.5mm Screw Terminal footprints for  PRT-08084&lt;br&gt;&lt;br&gt;5mm Screw Terminal footprints for use with PRT-08432</description>
+      <footprints>
+        <fp>*1X02_BIG*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_02PTH2</field>
+        <field name="Footprint">1X02_BIG</field>
+        <field name="Field4">XXX-00000</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Tactile-Switches" part="1825910-6">
+      <description>SWITCH TACTILE SPST-NO 0.05A 24V</description>
+      <docs>https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</docs>
+      <fields>
+        <field name="Reference">S</field>
+        <field name="Value">1825910-6</field>
+        <field name="Footprint">digikey-footprints:Switch_Tactile_THT_6x6mm</field>
+        <field name="Datasheet">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
+        <field name="Digi-Key_PN">450-1650-ND</field>
+        <field name="MPN">1825910-6</field>
+        <field name="Category">Switches</field>
+        <field name="Family">Tactile Switches</field>
+        <field name="DK_Datasheet_Link">https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&amp;DocNm=1825910&amp;DocType=Customer+Drawing&amp;DocLang=English</field>
+        <field name="DK_Detail_Page">/product-detail/en/te-connectivity-alcoswitch-switches/1825910-6/450-1650-ND/1632536</field>
+        <field name="Description">SWITCH TACTILE SPST-NO 0.05A 24V</field>
+        <field name="Manufacturer">TE Connectivity ALCOSWITCH Switches</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="DFRobot">
+      <uri>C:\Users\asher\KiCAD\MP3_Player/DFRobot.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="SparkFun-Connectors">
+      <uri>C:/Users/asher/Documents/KiCad/6.0/SparkFun-KiCad-Libraries-V_0.5/SparkFun-KiCad-Libraries-V_0.5/Libraries/SparkFun-Connectors.lib</uri>
+    </library>
+    <library logical="dk_Tactile-Switches">
+      <uri>C:/Users/asher/KiCAD/555_badge/Libraries/digikey-kicad-library-master/digikey-kicad-library-master/digikey-symbols/dk_Tactile-Switches.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="J2" pin="EART" pinfunction="EARTH" pintype="bidirectional"/>
+      <node ref="J2" pin="RING" pinfunction="RING2" pintype="bidirectional"/>
+      <node ref="J3" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="S1" pin="4" pintype="passive"/>
+      <node ref="S2" pin="4" pintype="passive"/>
+      <node ref="S3" pin="4" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="GND" pintype="input"/>
+      <node ref="U1" pin="7" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="2" name="Net-(J1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(J2-PadRING)">
+      <node ref="J2" pin="RING" pinfunction="RING1" pintype="bidirectional"/>
+      <node ref="U1" pin="4" pinfunction="DAC-R" pintype="input"/>
+    </net>
+    <net code="5" name="Net-(J2-PadTIP)">
+      <node ref="J2" pin="TIP" pinfunction="TIP" pintype="bidirectional"/>
+      <node ref="U1" pin="5" pinfunction="DAC-L" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="TX" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="RX" pintype="input"/>
+    </net>
+    <net code="8" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="KEY1" pintype="input"/>
+    </net>
+    <net code="9" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="S3" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(S1-Pad1)">
+      <node ref="S1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="IO1" pintype="input"/>
+    </net>
+    <net code="11" name="Net-(S2-Pad1)">
+      <node ref="S2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="IO2" pintype="input"/>
+    </net>
+    <net code="12" name="POWER">
+      <node ref="J3" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="13" name="unconnected-(S1-Pad2)">
+      <node ref="S1" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="14" name="unconnected-(S1-Pad3)">
+      <node ref="S1" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="15" name="unconnected-(S2-Pad2)">
+      <node ref="S2" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="16" name="unconnected-(S2-Pad3)">
+      <node ref="S2" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(S3-Pad2)">
+      <node ref="S3" pin="2" pintype="passive+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(S3-Pad3)">
+      <node ref="S3" pin="3" pintype="passive+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="SPK1" pintype="input+no_connect"/>
+    </net>
+    <net code="20" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="SPK2" pintype="input+no_connect"/>
+    </net>
+    <net code="21" name="unconnected-(U1-Pad13)">
+      <node ref="U1" pin="13" pinfunction="KEY2" pintype="input+no_connect"/>
+    </net>
+    <net code="22" name="unconnected-(U1-Pad14)">
+      <node ref="U1" pin="14" pinfunction="USB+" pintype="input+no_connect"/>
+    </net>
+    <net code="23" name="unconnected-(U1-Pad15)">
+      <node ref="U1" pin="15" pinfunction="USB-" pintype="input+no_connect"/>
+    </net>
+    <net code="24" name="unconnected-(U1-Pad16)">
+      <node ref="U1" pin="16" pinfunction="BUSY" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
